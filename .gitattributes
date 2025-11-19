@@ -1,0 +1,6 @@
+android/ linguist-language=Dart
+ios/ linguist-language=Dart
+windows/ linguist-language=Dart
+linux/ linguist-language=Dart
+macos/ linguist-language=Dart
+web/ linguist-language=Dart
