@@ -1,0 +1,40 @@
+name: parking_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.2
+  google_maps_flutter: ^2.7.0
+  geolocator: ^10.1.0
+  url_launcher: ^6.3.0
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  firebase_storage: ^12.0.0
+  geocoding: ^4.0.0
+  intl: ^0.20.2
+  razorpay_flutter: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_up.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - "assets/images/logo_up.jpg"
+    - "assets/images/bg_image.jpg"
